@@ -1,0 +1,14 @@
+class Student:
+    def __init__(self):
+        print("default constructor")
+    
+    def __init__(self,a):
+        print(a)
+       
+    def __init__(self,a,b):
+        print(a,b)
+        
+    def show(self):
+        print("I am show")
+s=Student(11,22)
+s.show()
